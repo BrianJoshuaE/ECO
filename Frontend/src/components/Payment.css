@@ -1,0 +1,47 @@
+.payment-page {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.payment-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+
+.payment-form,
+.payment-history {
+  background: white;
+  padding: 22px;
+  border-radius: 14px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+}
+
+.payment-form label,
+.payment-history h2 {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.payment-form input,
+.payment-form select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  margin-bottom: 16px;
+}
+
+.payment-item {
+  margin-bottom: 14px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #eee;
+}
+
+.btn-primary {
+  background: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 22px;
+}

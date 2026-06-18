@@ -1,0 +1,27 @@
+.available-jobs h1 {
+  margin-bottom: 20px;
+}
+
+.jobs-grid {
+  display: grid;
+  gap: 18px;
+}
+
+.job-card {
+  background: white;
+  padding: 18px;
+  border-radius: 12px;
+  box-shadow: 0 8px 18px rgba(0,0,0,0.08);
+}
+
+.job-card h3 {
+  margin-top: 0;
+}
+
+.job-card p {
+  margin: 8px 0;
+}
+
+.message {
+  color: #2e7d32;
+}

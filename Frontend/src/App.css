@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f5f7fb;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+.auth-page,
+.dashboard,
+.request-job-page,
+.available-jobs,
+.my-jobs-page,
+.feedback-page,
+.messages-page,
+.payment-page,
+.education-page,
+.map-page {
+  padding: 20px;
+}
